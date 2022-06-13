@@ -4,7 +4,7 @@ import Meta from '../../components/Meta';
 export default function SinglePost({ itemList }) {
   return (
     <>
-      <Meta title="Home page" description="Home description" keyword="java,php,python" />
+      <Meta title={itemList.title} description={itemList.description} keyword={itemList.title}  />
       <div className='container'>
         <div className="row">
 
